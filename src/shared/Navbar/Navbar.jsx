@@ -11,7 +11,7 @@ const Navbar = () => {
                     <NavLink to="/">Главная</NavLink>
                 </div>
             )}
-            {location.pathname !== '/posts' && (
+            {!location.pathname.startsWith("/posts") && (
                 <div>
                     <NavLink to="/posts">Посты</NavLink>
                 </div>

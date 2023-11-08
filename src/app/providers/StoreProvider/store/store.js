@@ -1,5 +1,5 @@
 import {combineReducers, configureStore} from "@reduxjs/toolkit";
-import {postAPI} from "../services/PostService";
+import {postAPI} from "../../../../shared/api/PostService";
 
 const rootReducer = combineReducers({
     [postAPI.reducerPath]: postAPI.reducer

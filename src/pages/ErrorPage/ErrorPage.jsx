@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Error = () => {
+const ErrorPage = () => {
     return (
-        <h1 style={{color: 'red'}}>
+        <h1 className="notification-container">
             Такой страницы не существует.
         </h1>
     );
 };
 
-export default Error;
+export default ErrorPage;
